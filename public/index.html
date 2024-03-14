@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+<body>
+ 
+  
+<div class="w-full h-screen flex items-center justify-center bg-indigo-100">
+  <form class="w-full md:w-1/3 rounded-lg">
+    <div class="flex font-bold justify-center mt-6">
+      <img class="h-40 w-40 mb-3 rounded-full " src="./assets/img/avatarProfile.avif" />
+    </div>
+    <h2 class="text-2xl text-center text-gray-200 mb-8">Login</h2>
+    <div class="px-12 pb-10">
+      <div class="w-full mb-2">
+        <div class="flex flex-col">
+          <label for="username" class="text-left">Username</label>
+          <input
+          id="username"
+            type="text"
+            placeholder="Enter Username"
+            class="
+              w-full
+              border
+              rounded
+              px-3
+              py-2
+              text-gray-700
+              focus:outline-none
+            "
+          />
+        </div>
+      </div>
+      <div class="w-full mb-2">
+        <div class="flex flex-col">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            class="
+              w-full
+              border
+              rounded
+              px-3
+              py-2
+              text-gray-700
+              focus:outline-none
+            "
+          />
+        </div>
+      </div>
+      <button
+        type="submit"
+        class="
+          w-full
+          py-2
+          mt-8
+          rounded-full
+          bg-green-500
+          text-gray-100
+          focus:outline-none
+        "
+      >
+        Login
+      </button>
+      <div class="flex gap-4   mt-10 ">
+        <input type="checkbox" name="remember me" id="remember me">
+        <label for="remember me">Remember me</label>
+      </div>
+      <div class=" flex justify-between mt-8">
+         <button
+        type="reset"
+        class="
+         w-20
+          py-2
+         
+        
+          rounded-md
+          bg-red-600
+          text-gray-100
+          focus:outline-none
+        "
+      >
+        Cancel
+      </button>
+      <a href="../public/recover-password" class="underline" target="_blank">Forgot password?</a>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>
+
+
+
+
+
+
