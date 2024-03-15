@@ -580,6 +580,10 @@ video {
   display: flex;
 }
 
+.list-item {
+  display: list-item;
+}
+
 .h-20 {
   height: 5rem;
 }
@@ -620,6 +624,18 @@ video {
 
 .max-w-md {
   max-width: 28rem;
+}
+
+.list-decimal {
+  list-style-type: decimal;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.list-image-none {
+  list-style-image: none;
 }
 
 .flex-col {
